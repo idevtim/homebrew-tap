@@ -1,6 +1,6 @@
 cask "chillmac" do
-  version "2.0.0"
-  sha256 "ee562ff085689a59b7546557f2adbf29be53b5635f674277c322f4b781dcabdb"
+  version "2.0.1"
+  sha256 "cf6845e30d498274bece13a74a5ab8366a12756c93a2aad26b281882f16d650b"
 
   url "https://github.com/idevtim/chillmac/releases/download/v#{version}/ChillMac-#{version}.zip"
   name "ChillMac"
