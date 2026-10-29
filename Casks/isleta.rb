@@ -1,6 +1,6 @@
 cask "isleta" do
-  version "2.7.0"
-  sha256 "0f9fa301331b9fd5c684cbf067f1c23be2aece16e784f59e5a4ea798d7b0e03e"
+  version "2.7.1"
+  sha256 "05923e4a8deb33c6b3467a7271f1abd6d52cbc72fba8c95d26b6a1006c41ff80"
 
   url "https://github.com/idevtim/isleta/releases/download/v#{version}/Isleta-#{version}.zip"
   name "Isleta"
