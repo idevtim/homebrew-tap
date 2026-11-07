@@ -8,9 +8,10 @@ Homebrew casks for apps by [idevtim](https://idevtim.com).
 | [ChillMac](https://github.com/idevtim/chillmac) — menu bar system monitor and fan control | `brew install --cask idevtim/tap/chillmac` |
 | [LunoPeak](https://lunopeak.com) — one dashboard for every Claude Code, Codex and Cursor session | `brew install --cask idevtim/tap/lunopeak` |
 | [Sift](https://github.com/idevtim/sift) — see how much disk space you can safely get back | `brew install --cask idevtim/tap/sift` |
+| [LunoDB](https://lunodb.app) — AI database client for MySQL, PostgreSQL, MongoDB and five more | `brew install --cask idevtim/tap/lunodb` |
 
-Each app updates itself once installed (Isleta and ChillMac through Sparkle, LunoPeak and Sift
-through their built-in updaters), so `brew upgrade` leaves them alone unless you pass `--greedy`.
+Each app updates itself once installed (Isleta and ChillMac through Sparkle, LunoPeak, Sift and
+LunoDB through their built-in updaters), so `brew upgrade` leaves them alone unless you pass `--greedy`.
 To remove one along with everything it stored:
 
 ```sh
@@ -19,6 +20,7 @@ brew uninstall --zap --cask <name>
 
 Isleta needs macOS 26 or later and ChillMac needs macOS 13 or later; both require Apple silicon.
 LunoPeak and Sift are universal builds that run on macOS 10.15 or later, Intel or Apple silicon.
+LunoDB needs macOS 12 or later; Homebrew picks the Apple silicon or Intel build to match your Mac.
 
-Isleta's and ChillMac's release scripts bump their casks here, so those are never more than one
-push behind the release they name. LunoPeak's and Sift's casks are bumped by hand for now.
+Isleta's, ChillMac's, Sift's and LunoDB's release scripts bump their casks here, so those are never
+more than one push behind the release they name. LunoPeak's cask is bumped by hand for now.
