@@ -1,6 +1,6 @@
 cask "lunopeak" do
-  version "2.1.2"
-  sha256 "c7b29b27e695c62c2d56ff8ad193efae48c38e6ba4f81a3d88ef36b004e3375e"
+  version "2.2.0"
+  sha256 "010a82ee172da629e1c3f041ec6fceb59dcf3913c1ff0cd12ca1b75435406ecc"
 
   url "https://github.com/idevtim/lunopeak/releases/download/v#{version}/LunoPeak_#{version}_universal.dmg"
   name "LunoPeak"
