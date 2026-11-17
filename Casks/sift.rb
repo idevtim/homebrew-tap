@@ -1,6 +1,6 @@
 cask "sift" do
-  version "1.2.0"
-  sha256 "6b7ae2400e8efc4a34eb2d0dac8d10ce34fcacce0b87b9518a90c6e030277871"
+  version "2.0.0"
+  sha256 "f0f2161d124216a408f18cdd93b9b8848058d5f3563e1bd08144aaa9796ec18f"
 
   url "https://github.com/idevtim/sift/releases/download/v#{version}/Sift_#{version}_universal.dmg"
   name "Sift"
