@@ -1,9 +1,9 @@
 cask "lunodb" do
   arch arm: "arm64", intel: "x64"
 
-  version "2.5.0"
-  sha256 arm:   "ebcf6126726e78ed33c65ce3850159c24d2eee3d5d95d25f05db48a0edcb65dd",
-         intel: "dd8457442be903be034e6e13da3747aa5d2cdb5328df4339caca2ee08c8e5758"
+  version "2.6.0"
+  sha256 arm:   "859d165c34f826e224ec99adc56869cfe8591eb814581813999e0d19e55244d7",
+         intel: "2dee4fe73b9cf48761a5de7011d641c83446b926157ca29d222c7d1168ca715b"
 
   url "https://github.com/lunodb/lunodb/releases/download/v#{version}/LunoDB-#{version}-#{arch}.dmg",
       verified: "github.com/lunodb/lunodb/"
